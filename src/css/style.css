@@ -1,0 +1,21 @@
+body {
+	background-color: rgb(192, 191, 191);
+}
+
+.field {
+	display: flex;
+	flex-wrap: wrap;
+	width: 500px;
+	height: 500px;
+	margin: auto;
+
+	background-color: rgba(68, 68, 68, 0.5);
+}
+
+.field_cell {
+	width: 25%;
+	height: 25%;
+	box-sizing: border-box;
+
+	border: 2px solid rgb(228 243 88);
+}
